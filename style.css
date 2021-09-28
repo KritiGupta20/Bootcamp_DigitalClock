@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 134, 196);
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#greeting {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+hr {
+    width: 10%;
+    margin-left: 45%;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+#digitalclock {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    padding-bottom: 30px;
+}
+
+#date {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    padding-bottom: 30px;
+}
